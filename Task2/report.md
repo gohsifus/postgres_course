@@ -20,6 +20,7 @@ VALUES ('bob'), ('nick'), ('alice');
 SHOW TRANSACTION ISOLATION LEVEL;
 ```
 Вывод: <b>read committed</b>
+<br>
 6. начать новую транзакцию в обеих сессиях с дефолтным (не меняя) уровнем
    изоляции
 ```
